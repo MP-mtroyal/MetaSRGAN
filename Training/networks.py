@@ -243,4 +243,3 @@ class MetaAutoencoder(nn.Module):
         vec = self.encoder(x)
         out = self.decoder(vec)
         return out
-  
